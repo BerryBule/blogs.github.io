@@ -1,0 +1,12 @@
+{
+  "name": "notion-github-sync",
+  "version": "1.0.0",
+  "description": "Sync Notion notes to GitHub",
+  "main": "sync-notion.js",
+  "scripts": {
+    "sync": "node sync-notion.js"
+  },
+  "dependencies": {
+    "@notionhq/client": "^2.2.14"
+  }
+}
