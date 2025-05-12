@@ -37,6 +37,6 @@ jobs:
           git diff --quiet && git diff --staged --quiet || (git commit -m "Sync from Notion" && git push origin main)
       - name: Debug GH_TOKEN
         env:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
-        echo "GH_TOKEN length is ${#GH_TOKEN}"
+           echo "GH_TOKEN length is ${#GH_TOKEN}"
